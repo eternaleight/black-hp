@@ -28,3 +28,11 @@ export const Text = styled.div`
   color: white;
   text-align: start;
 `;
+
+export const UnderWhite = styled.a`
+color: white;
+text-decoration: none;
+&:hover {
+text-decoration: underline;
+}
+`;

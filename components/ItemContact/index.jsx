@@ -1,15 +1,17 @@
 import React from 'react'
-import { Item, Icon, Text } from './style'
+import { Item, Icon, Text, UnderWhite } from './style'
 
-export default function ItemContact({ IconFa, LinkContact }) {
+function ItemContact({ IconFa, LinkContact }) {
   return (
     <Item>
       <Icon>
         <IconFa />
       </Icon>
       <Text>
-        {LinkContact}
+      <UnderWhite  href={LinkContact}>{LinkContact}</UnderWhite>
       </Text>
     </Item>
   )
 }
+
+export default ItemContact

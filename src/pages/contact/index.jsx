@@ -2,18 +2,19 @@ import React from 'react'
 import { Container, Content } from '../../../components/contactStyle.js'
 import { FaEnvelope, FaTwitter, FaYoutube, FaLaptop, FaGithub } from 'react-icons/fa'
 import ItemContact from '../../../components/ItemContact'
+import Link from 'next/link'
 
 const Contact = () => {
   return (
     <Container>
       <Content>
         <ItemContact 
-          IconFa={FaTwitter} 
-          LinkContact="https://twitter.com/initialcommit0" 
-        />
-        <ItemContact 
           IconFa={FaLaptop} 
           LinkContact="https://zenn.dev/eternaleight" 
+        />
+        <ItemContact 
+          IconFa={FaTwitter} 
+          LinkContact="https://twitter.com/initialcommit0" 
         />
         <ItemContact 
           IconFa={FaYoutube} 
