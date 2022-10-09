@@ -1,28 +1,19 @@
 import React, { useEffect, useState } from 'react'
 import { Container, Content, Ul, Li, TitleProject, Url, Created_at } from '../../../components/projectsStyle.js'
+import axios from 'axios'
 
 const Projects = () => {
   const [itemsApi, setItemsApi] = useState([])
 
-  useEffect(() => {
-    let abortController = new AbortController(); 
-
-    function getGitHubAPI() {
-      fetch('https://api.github.com/users/eternaleight/repos')
-      .then(async res => {
-        if (!res.ok) {
-          throw new Error(res.status)
-        }
-        var data = await res.json()
-        setItemsApi(data)
-      })
-      .catch(e => console.log(e))
-    }
-
-    getGitHubAPI()
-
-    return () => abortController.abort();  
-  }, [])
+useEffect(() => {
+axios.get('https://api.github.com/users/eternaleight/repos')
+.then((response) => {
+setItemsApi(response.data);
+})
+.catch(err => {
+console.log(err)
+})
+},[])
 
   return (
     <Container>
