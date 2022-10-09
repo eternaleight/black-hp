@@ -13,6 +13,10 @@ const Contact = () => {
           LinkContact="https://zenn.dev/eternaleight" 
         />
         <ItemContact 
+          IconFa={FaGithub} 
+          LinkContact="https://github.com/eternaleight" 
+        />
+        <ItemContact 
           IconFa={FaTwitter} 
           LinkContact="https://twitter.com/initialcommit0" 
         />
@@ -23,10 +27,6 @@ const Contact = () => {
         <ItemContact 
           IconFa={FaEnvelope} 
           LinkContact="initialcommit0@gmail.com" 
-        />
-        <ItemContact 
-          IconFa={FaGithub} 
-          LinkContact="https://github.com/eternaleight" 
         />
       </Content>
     </Container>
