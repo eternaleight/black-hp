@@ -19,7 +19,7 @@ const Header = () => {
       <Content>
         <ContentTitle>
           <Title>
-            Ryoya Itabashi
+           Black_HP
           </Title>
           <SubTitle>
            eternaleight 
