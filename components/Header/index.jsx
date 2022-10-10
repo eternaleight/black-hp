@@ -18,9 +18,11 @@ const Header = () => {
     <Container>
       <Content>
         <ContentTitle>
-          <Title>
+        <Link href='/'>
+        <Title style={{ cursor: 'pointer' }}>
            Black_HP
           </Title>
+        </Link>
           <SubTitle>
            eternaleight 
           </SubTitle>

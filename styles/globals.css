@@ -52,3 +52,11 @@ a, button {
     height: 290px;
   }
 }
+
+.works-url {
+  cursor: pointer;
+  display: inline;
+  text-decoration: underline;
+}
+.works-url:hover {
+}
