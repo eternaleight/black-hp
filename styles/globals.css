@@ -16,3 +16,24 @@ body {
 a, button {
   cursor: pointer;
 }
+
+.imageContainer {
+  >span {
+    position: unset !important;
+  }
+
+  .image {
+    position: relative !important;
+    width: 100% !important;
+    height: unset !important;
+  }
+}
+
+.grid-container {
+  overflow-x: auto;
+  height: inherit;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  }
