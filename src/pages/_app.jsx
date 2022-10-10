@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Eternal | Dev</title>
+        <title>Black_HP | Dev</title>
        </Head>
        <Header />
       <Component {...pageProps} />
