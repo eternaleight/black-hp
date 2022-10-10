@@ -29,11 +29,26 @@ a, button {
   }
 }
 
-.grid-container {
-  overflow-x: auto;
-  height: inherit;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
+
+  .grid-container {
+    overflow-x: auto;
+    height: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
   }
+
+  .co {
+    margin-top: 30px;
+    position: relative;
+    width: 400px;
+    height: 340px;
+    z-index: -1;
+  }
+  @media screen and (max-width: 600px) {
+    .co-media {
+      width: 350px;
+    height: 290px;
+  }
+}

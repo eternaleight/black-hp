@@ -33,9 +33,6 @@ const Header = () => {
           <Link href="/">
             <Ancora className={activeLink('')} onClick={showSiderbar}>Home</Ancora>
           </Link>
-          <Link href="/about">
-            <Ancora className={activeLink('about')} onClick={showSiderbar}>About</Ancora>
-          </Link>
           <Link href="/works">
             <Ancora className={activeLink('works')} onClick={showSiderbar}>Works</Ancora>
           </Link>
