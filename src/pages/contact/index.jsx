@@ -26,7 +26,7 @@ const Contact = () => {
         />
         <ItemContact 
           IconFa={FaEnvelope} 
-          LinkContact="initialcommit0@gmail.com" 
+          LinkContact="eternaleight0@gmail.com"
         />
       </Content>
     </Container>

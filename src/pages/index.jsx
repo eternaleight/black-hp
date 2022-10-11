@@ -2,6 +2,7 @@ import { FaArrowRight } from 'react-icons/fa'
 import { Container, Content, Infos, Name, Function, Intro, LinkProjects, Logo, Img } from '../../styles/indexStyle'
 import Link from 'next/link'
 // import Image from 'next/image'
+import { motion } from 'framer-motion'
 
 const Home = () => {
   return (

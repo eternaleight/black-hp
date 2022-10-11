@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Container, Content, Ul, Li, TitleProject, Url, Created_at } from '../../../components/projectsStyle.js'
 import axios from 'axios'
+import { motion } from 'framer-motion'
 
 const Projects = () => {
   const [itemsApi, setItemsApi] = useState([])
