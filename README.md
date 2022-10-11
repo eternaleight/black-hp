@@ -1,7 +1,8 @@
 # Black_HP
 https://black-hp.vercel.app/
 
-![CleanShot 2022-10-09 at 17 34 50@2x](https://user-images.githubusercontent.com/96198088/194746601-915b50ff-6d7d-43ee-8f42-b625bfdfd383.png)
+![CleanShot 2022-10-11 at 19 25 29@2x](https://user-images.githubusercontent.com/96198088/195066357-8eebbdfb-5718-4273-8e79-f7b5917416ed.png)
+
 ## Stack
 - [Next.js](https://nextjs.org/) - The React Framework
 for Production
