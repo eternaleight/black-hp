@@ -52,6 +52,18 @@ a, button {
     height: 290px;
   }
 }
+  .co2 {
+    width: 400px;
+    position: relative;
+    height: 400px;
+    z-index: -1;
+  }
+  @media screen and (max-width: 600px) {
+    .co2-media {
+    width: 350px;
+    height: 350px;
+  }
+}
 
 .works-url {
   cursor: pointer;

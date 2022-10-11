@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+const size = '600px'
+
 export const Container = styled.div`
   height: 100px;
   display: flex;
@@ -24,7 +26,7 @@ export const NavLinks = styled.nav`
   display: flex;
   gap: 20px;
 
-  @media (max-width: 560px) {
+  @media (max-width: ${size}) {
     flex-direction: column;
     background-color: #161616;
     position: fixed;
@@ -55,7 +57,7 @@ export const Ancora = styled.a`
     background-color: black;
   }
 
-  @media (min-width: 560px) {
+  @media (min-width: ${size}) {
     align-items: center;
     display: flex;
     padding: 0px 10px;
@@ -67,7 +69,7 @@ export const Menu = styled.div`
   display: none;
   cursor: pointer;
   
-  @media (max-width: 560px) {
+  @media (max-width: ${size}) {
     display: flex;
   }
 `;
@@ -80,7 +82,7 @@ export const CloseSidebar = styled.div`
   display: none;
   cursor: pointer;
   
-  @media (max-width: 560px) {
+  @media (max-width: ${size}) {
     display: flex;
   }
 `;

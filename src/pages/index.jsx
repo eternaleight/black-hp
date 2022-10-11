@@ -20,8 +20,8 @@ const Home = () => {
         </Link>
       </Infos>
       <Logo>
-        <div style={{ display: 'relative', zIndex: '-1' }}>
-        <Image src="/images/icon.jpeg" width={400} height={400} alt="logo" />
+        <div className='co2 co2-media' style={{zIndex: '-1' }}>
+        <Image src="/images/icon.jpeg" layout='fill' objectFit='contain' alt="logo" />
         </div>
       </Logo>
      </Content>
