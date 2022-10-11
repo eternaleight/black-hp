@@ -72,3 +72,14 @@ a, button {
 }
 .works-url:hover {
 }
+
+.radius {
+  z-index: -1;
+  border-radius: 50px; /*1*/
+  border: 3px solid transparent; /*2*/
+  background: linear-gradient(45deg,#789,#eff,#abc) border-box; /*3*/
+  -webkit-mask: /*4*/
+  linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor; /*5'*/
+  mask-composite: exclude; /*5*/
+}

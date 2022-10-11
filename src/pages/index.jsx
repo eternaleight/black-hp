@@ -1,7 +1,7 @@
 import { FaArrowRight } from 'react-icons/fa'
 import { Container, Content, Infos, Name, Function, Intro, LinkProjects, Logo, Img } from '../../styles/indexStyle'
 import Link from 'next/link'
-import Image from 'next/image'
+// import Image from 'next/image'
 
 const Home = () => {
   return (
@@ -20,9 +20,7 @@ const Home = () => {
         </Link>
       </Infos>
       <Logo>
-        <div className='co2 co2-media' style={{zIndex: '-1' }}>
-        <Image src="/images/icon.jpeg" layout='fill' objectFit='contain' alt="logo" />
-        </div>
+        <img className='radius' src="/images/icon.jpeg"  />
       </Logo>
      </Content>
    </Container>
